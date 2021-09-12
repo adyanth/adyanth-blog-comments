@@ -1,0 +1,81 @@
+@import 'github-syntax-dark/lib/github-dark.css';
+
+/*! MIT License
+ * Copyright (c) 2018 GitHub Inc.
+ * https://github.com/primer/primitives/blob/main/LICENSE
+ */
+
+main {
+  --color-text-primary: #c9d1d9;
+  --color-text-secondary: #8b949e;
+  --color-text-tertiary: #8b949e;
+  --color-text-link: #58a6ff;
+  --color-text-danger: #f85149;
+  --color-text-success: #3fb950;
+  --color-border-primary: #30363d;
+  --color-border-secondary: #21262d;
+  --color-border-tertiary: rgba(110, 118, 129, 0.4);
+  --color-border-info: #1f6feb;
+  --color-bg-canvas: #181818;
+  --color-bg-canvas-inset: #181818;
+  --color-bg-primary: #181818;
+  --color-bg-secondary: #1d1e20;
+  --color-bg-tertiary: #1d1e20;
+  --color-bg-overlay: #1d1e20;
+  --color-bg-info: rgba(56, 139, 253, 0.15);
+  --color-state-focus-border: #1f6feb;
+  --color-state-focus-shadow: 0 0 0 3px #0c2d6b;
+  --color-alert-error-text: #c9d1d9;
+  --color-alert-error-bg: rgba(248, 81, 73, 0.15);
+  --color-alert-error-border: rgba(248, 81, 73, 0.4);
+  --color-counter-secondary-text: #8b949e;
+  --color-counter-secondary-bg: rgba(110, 118, 129, 0.1);
+  --color-box-border-info: rgba(56, 139, 253, 0.4);
+  --color-markdown-code-bg: rgba(110, 118, 129, 0.4);
+  --color-hidden-text-expander-bg: rgba(110, 118, 129, 0.4);
+  --color-label-border: #30363d;
+  --color-input-bg: #181818;
+  --color-input-contrast-bg: #181818;
+  --color-input-border: #30363d;
+  --color-diff-blob-num-text: #8b949e;
+  --color-diff-blob-num-hover-text: #c9d1d9;
+  --color-btn-text: #c9d1d9;
+  --color-btn-bg: #21262d;
+  --color-btn-border: rgba(240, 246, 252, 0.1);
+  --color-btn-shadow: 0 0 transparent;
+  --color-btn-inset-shadow: 0 0 transparent;
+  --color-btn-hover-bg: #30363d;
+  --color-btn-hover-border: #8b949e;
+  --color-btn-active-bg: #282e33;
+  --color-btn-active-border: #6e7681;
+  --color-btn-primary-text: #fff;
+  --color-btn-primary-bg: #238636;
+  --color-btn-primary-border: rgba(240, 246, 252, 0.1);
+  --color-btn-primary-shadow: 0 0 transparent;
+  --color-btn-primary-inset-shadow: 0 0 transparent;
+  --color-btn-primary-hover-bg: #2ea043;
+  --color-btn-primary-hover-border: rgba(240, 246, 252, 0.1);
+  --color-btn-primary-selected-bg: #238636;
+  --color-btn-primary-selected-shadow: 0 0 transparent;
+  --color-btn-primary-disabled-text: rgba(240, 246, 252, 0.5);
+  --color-btn-primary-disabled-bg: rgba(35, 134, 54, 0.6);
+  --color-btn-primary-disabled-border: rgba(240, 246, 252, 0.1);
+  --color-scale-gray-7: #21262d;
+  --color-scale-gray-8: #1d1e20;
+  --color-scale-blue-8: #0c2d6b;
+
+  /* Extensions from color-modes.scss */
+  --color-social-reaction-border: var(--color-scale-blue-8);
+  --color-social-reaction-bg: var(--color-scale-gray-8);
+  --color-social-reaction-bg-hover: var(--color-scale-gray-7);
+  --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
+}
+
+main .pagination-loader-container {
+  background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg);
+}
+
+/*! Custom CSS */
+main {
+  color-scheme: dark;
+}
